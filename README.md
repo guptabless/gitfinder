@@ -16,13 +16,13 @@ this code finds if there is nay hidden .git directory on the website.
 
 ## usage: 
 
-gitfinder.py  -u < Valid URL >
+gitfinder.py  -u < Valid URL or location of text file which conatin multiple URLs >
 
 OPTIONS: 
 
 ```
 -h             --help    
              	 < show the available options >
--n            valid URL with http:// or https://
+-n            valid URL or location of file which conatin multiple URLs
   		< where you want to search git directory >
 ```
